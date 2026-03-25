@@ -35,9 +35,9 @@ function DashboardContent() {
         instructions={prompt}
         AssistantMessage={CustomAssistantMessage}
         labels={{
-          title: "Relatorio Diagnostico",
-          initial: "Sistema de diagnostico quantitativo para trading. Saidas sao relatorios tecnicos estruturados.",
-          placeholder: "Descreva estrategia, periodo e indicadores para gerar relatorio...",
+          title: "Revenue Copilot",
+          initial: "Sistema de analise de monetizacao AdSense com saidas tecnicas estruturadas para operacao editorial.",
+          placeholder: "Descreva canal, dispositivo, periodo ou problema de monetizacao...",
         }}
       />
     </>

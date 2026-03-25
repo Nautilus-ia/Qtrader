@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 const links = [
   { href: "/dashboard", label: "Dashboard" },
-  { href: "/mapa-estrategico", label: "Mapa estrategico" },
+  { href: "/mapa-estrategico", label: "Plano de monetizacao" },
 ];
 
 export function SplitNav() {

@@ -1,22 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { CopilotKit } from "@copilotkit/react-core";
 import "@copilotkit/react-ui/styles.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "Strategic Mapping - Diagnostico Quantitativo para Trading",
-  description: "Sistema analitico para diagnostico quantitativo de estrategias em trading",
+  title: "Revenue Intelligence - Dashboard de Monetizacao AdSense",
+  description: "Sistema analitico para diagnostico de monetizacao, audiencia e inventario AdSense",
 };
 
 export default function RootLayout({
@@ -26,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className="antialiased">
         <CopilotKit 
           runtimeUrl="/api/copilotkit"
           showDevConsole={false}
